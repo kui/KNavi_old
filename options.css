@@ -1,0 +1,38 @@
+/*********** all ***********/
+h1,h2,p{
+    color: #333;
+}
+div{
+    margin: 20px;
+}
+h1{
+    border: solid #900 0px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    padding: 10px;
+}
+h2{
+    border: solid #900 0px;
+    border-left-width: 10px;
+    border-bottom-width: 1px;
+    padding: 5px 10px;
+}
+p{
+    padding: 0px 5px;
+}
+/*********** /all ***********/
+
+/*********** #Wrap ***********/
+#Wrap{
+}
+/*********** /#Wrap ***********/
+
+/*********** #Keys ***********/
+#Keys{
+}
+/*********** /#Keys ***********/
+
+/*********** #StyleSheets ***********/
+#StyleSheets{
+}
+/*********** /#StyleSheets ***********/

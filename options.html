@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KNavi extention options</title>
+    <link rel="stylesheet" type="text/css" href="options.css" media="all" />
+  </head>
+  <body onload="main()">
+    <div id="Wrap">
+      <h1 id="Title">KNavi extention options</h1>
+      <p id="Description"></p>
+      <div id="Keys">
+	<h2>Keys</h2>
+	<p>Fire Key: <input type="text" id="FireKey" /></p>
+	<p>Hint Charactor: <input type="text" id="HintKeys" /></p>
+	<p>
+	  Hint Case:
+	  <select id="DisplayCase">
+	    <option value="UpperCase">Upper Case</option>
+	    <option value="LowerCase">Lower Case</option>
+	  </select>
+	</p>
+      </div><!-- end of Keys -->
+      <div id="StyleSheets">
+	<h2>Style Sheets</h2>
+	<p>Hint Elements<br/>
+	  <textarea id="HintStyle" rows="8" cols="50"></textarea></p>
+	<p>Hit Canditeate Elements<br/>
+	  <textarea id="HitCandStyle" rows="8" cols="50"></textarea></p>
+	<p>Hit Element<br/>
+	  <textarea id="HitStyle" rows="8" cols="50"></textarea></p>
+	<p><button onclick="saveOptions()">Save</button>
+	  <span id="Status"></span></p>
+      </div><!-- end of StyleSheets -->
+    </div><!-- end of Wrap -->
+    <script type="text/javascript" src="option_names.js"></script>
+    <script type="text/javascript" src="options.js"></script>
+  </body>
+</html>
